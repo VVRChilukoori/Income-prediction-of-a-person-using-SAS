@@ -431,7 +431,14 @@
 <p>&nbsp;From the above iteration plot it can be said that the values get optimized at step &lsquo;35&rsquo;.</p>
 <p><strong>4.) Neural Network2:</strong></p>
 <p>We wanted to compare the results and get the lowest average square error so we tried methods. In this process we again connected the neural network to regression node and the following was observed (In fit statistics).</p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/27.jpg" alt="" width="776" height="489" /></p>
+
 <p>We changed the properties to the same properties that we kept for the neural network (i.e model selection Criterion was changed to Average Error).</p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/28.jpg" alt="" width="776" height="489" /></p>
+
+
 <p>From the above iteration plot it can be said that the values get optimized at step &lsquo;36&rsquo;, which is higher compared to neural network that was directly connected to impute node. So this was not a good method. So we stopped from doing further analysis on this approach.</p>
 <p>5.) Auto Neural:</p>
 <p>The AutoNeural is an automated tool which helps to find the optimal configurations without many inputs needed to be given to it. We tried this by connecting it to the regression node, ran it and following results were obtained (in Fit Statistics table).</p>
