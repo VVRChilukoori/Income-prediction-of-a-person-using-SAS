@@ -369,15 +369,24 @@
 <li>Decision Tree- In order to build a predictive model to isolate cases with identical target values we implemented the use of a Decision Tree. In analyzing the results of our decision tree, we were able to identify useful input variables: Relationship was the first split and there were competing splits at education, occupation, hours_per_week and sex. There were 33 leaves in the maximal tree in the maximal tree and Average Squared Error (validation) = 0.1166</li>
 </ol>
 <p>Figure below shows the plots of average square error for both Train and validation data:</p>
-<p>&nbsp;</p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/16.jpg" alt="" width="776" height="489" /></p>
+
 <p>It is evident from the decisions trees that relationship and education are the most important predictors of income.</p>
 <p>At node&nbsp;&nbsp; where person enters with relationship Not-IN-FAMILY, UMMARRIED and education HS-GRAD, 7<sup>TH</sup>-8<sup>TH</sup>, SOME COLLEGE and hours_per_week &lt;41.5 or Missing the probability that a person has income&lt;50K is 97.88%. The same person has probability of income &gt;50K to be 2.112%.&nbsp;&nbsp;&nbsp;</p>
 <p>At node where relationship is Not-IN-FAMILY, UMMARRIED and education is DOCTORATE,PROF-SCHOOL and age is &lt;31.5 and hours_per_week &lt;44.5 or missing the probability that a person has income &lt;50K is 97.49%. The same person has probability of income &gt;50K to be 2.51%.</p>
 <p>The figure below is the full tree diagram:</p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/17.jpg" alt="" width="776" height="489" /></p>
+
 <p>The figure below gives the relation that is the strong indicator for target variable to be &lsquo;0&rsquo;.</p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/18.jpg" alt="" width="776" height="489" /></p>
+
 <p>The figure below gives the relation that is the strong indicator for target variable to be &lsquo;1&rsquo;.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/19.jpg" alt="" width="776" height="489" /></p>
+
 <p>&nbsp;</p>
 <ol start="2">
 <li>Regression Analysis :</li>
