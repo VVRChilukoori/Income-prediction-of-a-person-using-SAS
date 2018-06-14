@@ -438,17 +438,25 @@
 
 <p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/28.jpg" alt="" width="776" height="489" /></p>
 
-
 <p>From the above iteration plot it can be said that the values get optimized at step &lsquo;36&rsquo;, which is higher compared to neural network that was directly connected to impute node. So this was not a good method. So we stopped from doing further analysis on this approach.</p>
 <p>5.) Auto Neural:</p>
 <p>The AutoNeural is an automated tool which helps to find the optimal configurations without many inputs needed to be given to it. We tried this by connecting it to the regression node, ran it and following results were obtained (in Fit Statistics table).</p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/29.jpg" alt="" width="776" height="489" /></p>
+
 <p>But the values obtained were higher than normal neural network values.</p>
 <p>&nbsp;</p>
 <p><b>Model Comparison &amp; Model Selection:</b></p>
 <p>For model comparison and selection we used the model comparison node available in the enterprise miner</p>
 <p>After generating all the different models using the different nodes, we performed a model comparison using the Model comparison node. We connected all the nodes (i.e. Regression, Decision Tree, Neural Network, Neural Network (2), AutoNeural nodes) to model comparison node and ran it. The following results were obtained (in fit statistics table).</p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/30.jpg" alt="" width="830" height="180" /></p>
+
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In applying a comparison model, it was found that Neural Network is the best model.&nbsp; It has a validation ASE = 0.11101, a validation Misclassification Rate = .159808 and the best ROC index at 0.891.</p>
 <p>Below is the screenshot of our completed project showing all the nodes with diagram.</p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/31.jpg" alt="" width="920" height="500" /></p>
+
 <p><b>Conclusions and Recommendations:</b></p>
 <p>In conclusion what did we learn from our analysis?&nbsp; Did we meet our stated business objective(s)?&nbsp; How can the results of our analysis address the business problem/opportunity?&nbsp; What further analysis that builds on our work can be done in the future.&nbsp; Our responses to each of these valid questions is noted below:</p>
 <ol>
