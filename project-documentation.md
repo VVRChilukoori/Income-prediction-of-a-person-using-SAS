@@ -399,21 +399,35 @@
 <p>In considering the logsworth and odd-ratio, we found that the most useful variables selected in the final model included IMP_REP_OCCUPATION, EDUCATION, REP_AGE</p>
 <p>Figure below is the output from Regression node.</p>
 
-<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/21.jpg" alt="" width="350" height="540" /></p>
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/21.jpg" alt="" width="390" height="590" /></p>
 
 <p>Considering occupation effect, the odds of persisting increase by 19% for each increase in &lsquo;Adm-clerical vs Transport-moving&rsquo;. More impressively odds more than double for every increase in &lsquo;Exec-managerial vs Transport-moving&rsquo; in occupation.&nbsp; Odds of persisting occupation &lsquo;0&rsquo; vs &lsquo;1&rsquo; is more than 3-times. The effect of &lsquo;sex&rsquo; role i.e. &lsquo;male vs female&rsquo; ratio is 38.3 percent.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 <p>&nbsp;</p>
 <p>The results of fit statistics obtained from regression analysis is shown below.</p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/22.jpg" alt="" width="776" height="489" /></p>
+
 <p>The value obtained for Average square error for validation is &lsquo;0.113479&rsquo;.</p>
 <p><strong>Iteration plot:</strong></p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/23.jpg" alt="" width="776" height="489" /></p>
+
 <p>From the above iteration plot it can be said that the values get optimized at step &lsquo;9&rsquo;.</p>
 <p>&nbsp;</p>
 <p>3) Neural Network -</p>
 <p>We connected Neural Network node to Impute node. In implementing a neural network, our task was to identify those variables that had greatest absolute weight in predicting out target. The average square error for the validation data is 0.11101.</p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/24.jpg" alt="" width="776" height="489" /></p>
+
 <p>To run the &lsquo;neural network&rsquo; completely we changed the properties of neural network. Model selection Criterion was changed to Average Error.</p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/25.jpg" alt="" width="800" height="500" /></p>
+
 <p>In considering our input and target variables, education 10<sup>th</sup> variable had the largest absolute weight at 1.193921 and is used to calculate hidden unit 2. &nbsp;This variable was followed closely by the IMP_REP_native_coCambodia variable at 0.441876 and was also used to calculate hidden unit 3.</p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/26.jpg" alt="" width="776" height="489" /></p>
+
 <p>&nbsp;From the above iteration plot it can be said that the values get optimized at step &lsquo;35&rsquo;.</p>
 <p><strong>4.) Neural Network2:</strong></p>
 <p>We wanted to compare the results and get the lowest average square error so we tried methods. In this process we again connected the neural network to regression node and the following was observed (In fit statistics).</p>
