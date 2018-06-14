@@ -393,8 +393,14 @@
 </ol>
 <p>We implemented the use of regression analysis to identify those variables inputs that were most useful in predicting a favorable outcome of our target value &ldquo;Target&rdquo; and also to estimate the relationship among the variables.</p>
 <p>The figure below gives details of the summary of step-wise selection.</p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/20.jpg" alt="" width="776" height="489" /></p>
+
 <p>In considering the logsworth and odd-ratio, we found that the most useful variables selected in the final model included IMP_REP_OCCUPATION, EDUCATION, REP_AGE</p>
 <p>Figure below is the output from Regression node.</p>
+
+<p align="center"><img src="https://github.com/VVRChilukoori/Income-prediction-of-a-person-using-SAS/blob/branch/img/21.jpg" alt="" width="350" height="540" /></p>
+
 <p>Considering occupation effect, the odds of persisting increase by 19% for each increase in &lsquo;Adm-clerical vs Transport-moving&rsquo;. More impressively odds more than double for every increase in &lsquo;Exec-managerial vs Transport-moving&rsquo; in occupation.&nbsp; Odds of persisting occupation &lsquo;0&rsquo; vs &lsquo;1&rsquo; is more than 3-times. The effect of &lsquo;sex&rsquo; role i.e. &lsquo;male vs female&rsquo; ratio is 38.3 percent.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
