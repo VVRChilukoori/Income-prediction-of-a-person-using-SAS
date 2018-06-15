@@ -1,7 +1,7 @@
 <ul>
 <li><b>Executive Summary</b></li>
 </ul>
-<p>The goal of the project is to predict what all factors makes the basis for a person to earn an income greater than $ 50K.&nbsp; In this project we will determine this by examining a data set from Census Bureau database (obtained from <a href ='https://www.kaggle.com/uciml/adult-census-income'> kaggle </a>).&nbsp; We have obtained the data for the year 1994</p>
+<p>The goal of the project is to predict what all factors makes the basis for a person to earn an income greater than $ 50K.&nbsp; In this project we will determine this by examining a data set from Census Bureau database (obtained from <a href ='https://www.kaggle.com/uciml/adult-census-income'> kaggle</a>).&nbsp; We have obtained the data for the year 1994</p>
 <ul>
 <li><b>Business Problem/Opportunity</b></li>
 </ul>
